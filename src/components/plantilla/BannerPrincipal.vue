@@ -9,9 +9,9 @@
         //-   span.text-small.insignia.me-2 Programa
         //-   p.text-small.mb-0 {{globalData.programaFormacion}}
         .banner-principal__componente
-          h1.mb-0.txt-color {{globalData.componenteFormativo}}
+          h1.mb-0 {{globalData.componenteFormativo}}
         .banner-principal__descripcion
-          p.mb-0.txt-color(v-html="globalData.descripcionCurso")
+          p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Iniciar
@@ -36,7 +36,7 @@ export default {
 <style lang="sass" scoped>
 .banner-principal
   p, h1
-    color: $white
+    color: $color-sistema-a
 
   .tarjeta
     background-color: $color-curso-a
