@@ -33,10 +33,10 @@
           p p y q son proposiciones simples válidas porque pueden tomar un valor verdadero o falso; sin embargo, los enunciados r y s son proposiciones no válidas, porque no pueden tomar un valor de falso o verdadero, uno de ellos es un saludo y el otro es una orden.
         .col-12.col-lg-6.mt-4.mt-lg-0
           .cajon--azul.p-4.mb-5.mb-lg-0
-            p.mb-4 #[b p:] la tierra es plana.
-            p.mb-4 #[b q:] -17 + 38 = 21
-            p.mb-4 #[b r:] hola ¿cómo estás?
-            p #[b S:] lava el carro por favor.
+            p.mt-4 #[b p:] la tierra es plana.
+            p #[b q:] -17 + 38 = 21
+            p #[b r:] hola ¿cómo estás?
+            p.mb-4 #[b S:] lava el carro por favor.
       li.mt-5.mb-4
         .lista-ol--cuadro__vineta
           span b.
@@ -167,8 +167,8 @@
           .col-12
             h4 Si no llueve se arruina la cosecha.
             p.mb-4 Este tipo de proposición se conoce como la condición “para que”, de manera que para que no se arruine la cosecha se requiere que llueva.
-            p.mb-4 P: si no llueve
-            p.mb-4 Q: se arruina la cosecha
+            p.mb-4 p: si no llueve
+            p.mb-4 q: se arruina la cosecha
             p.mb-5 Al aplicar el operador p → q su tabla de verdad quedaría de la siguiente manera:
             .row.justify-content-center.mb-4
               .col-10.col-lg-8.mb-4
@@ -182,8 +182,8 @@
           .col-12
             h4 Es buen estudiante.
             p.mb-4 Es buen estudiante, si y solo si tiene promedio de cinco, donde se puede concluir lo siguiente:
-            p.mb-4 P: es un buen estudiante
-            p.mb-4 Q: tiene promedio de 5
+            p.mb-4 p: es un buen estudiante
+            p.mb-4 q: tiene promedio de 5
             p.mb-5 al aplicar el operador p ↔ q su tabla de verdad quedaría de la siguiente manera:
             .row.justify-content-center.mb-4
               .col-10.col-lg-8.mb-4
@@ -213,11 +213,11 @@
         .row
           .col-12
             h4 Las palomas vuelan.
-            p.mb-4 P: todas las palomas vuelan
-            p.mb-4 Q: todas las aves tienen plumas
-            p.mb-4 R: luego todas las palomas son aves
+            p.mb-4 p: todas las palomas vuelan
+            p.mb-4 q: todas las aves tienen plumas
+            p.mb-4 r: luego todas las palomas son aves
             p.mb-4 Estas proposiciones se pueden escribir utilizando los operadores lógicos de la siguiente manera:
-            p.mb-4 (P ∧ Q) → R
+            p.mb-4 (p ∧ q) → r
             p.mb-5 Para el anterior ejercicio se construye la tabla de verdad:
             .row.justify-content-center
               .col-10.col-lg-8
@@ -287,14 +287,13 @@
         .h6 Determinar los casos
         p.mb-4 Determinar las relaciones lógicas de acuerdo con lo planteado en el enunciado, utilizando las proposiciones atómicas definidas en el punto anterior.
         ol
-          li p ∧ (q ∨ r).
+          li p ∧ (q V r).
         .hr2
     .row.align-items-center.mb-5
       .col-1
         img(src='@/assets/curso/img24.png', style='max-width: 100%;')
       .col-11
-        .h6 Determinar los casos
-        p.mb-4 Evaluar los posibles casos derivados del enunciado anterior.
+        .h6.mt-4.mb-5 Evaluar los posibles casos derivados del enunciado anterior.
         .hr2
     .titulo-segundo
       .h5 2.3.2. Ejercicio 2.
@@ -349,7 +348,7 @@
             img(src='@/assets/curso/img21.png', style='max-width: 100%;')
           .col-10
             .hr1
-            .h6 Identificar
+            .h6 Problema
             p Identificar la respuesta correcta al problema presentado por Sandra.
         .row.align-items-center.mb-4
           .col-2
@@ -360,8 +359,7 @@
             p.mb-4 Definir las proposiciones atómicas:
             ol
               li #[b p:] adelgazo.
-              li #[b q:] sabe utilizar el Microsoft Office.
-              li #[b r:] hago dieta.
+              li #[b q:] hago dieta.
             .hr2
       .col-5
         .row.align-items-center.mb-4
@@ -372,7 +370,7 @@
             .h6 Determinar
             p.mb-4 Determinar la relación lógica.
             ol
-              li P ∨ ¬ Q.
+              li p V ¬ q.
         .row.align-items-center.mb-4
           .col-2
             img(src='@/assets/curso/img24.png', style='max-width: 100%;')

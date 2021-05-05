@@ -90,14 +90,14 @@
         img(src='@/assets/curso/img7.png', style='max-width: 100%;')
       .col-11
         .hr1
-        .h6 Realizable:
+        .h6 Comprensible:
         p Debe ser claro lo que hace, de forma que quien ejecute los pasos (ser humano o máquina) sepa qué, cómo y cuándo hacerlo. Debe existir un procedimiento que determine el proceso de ejecución.
     .row.align-items-center.mb-5
       .col-1
         img(src='@/assets/curso/img8.png', style='max-width: 100%;')
       .col-11
         .hr1
-        .h6 Realizable:
+        .h6 Preciso:
         p El orden de ejecución de las instrucciones debe estar perfectamente indicado. Cuando se ejecuta varias veces, con los mismos datos iniciales, el resultado debe ser el mismo siempre. La precisión implica determinismo. (López, 2009, p. 22)
         .hr2
     .row.align-items-start.bg-color1
@@ -108,7 +108,7 @@
         p.txt-deco1 #[b Figura 3. Fases para elaborar un programa de computador. Figura recuperada de Educación básica algoritmos y programación. Guía para docentes, de J. C. López García, 2007-2009, Fundación Gabriel Piedrahita Uribe www.eduteka.org p. 11.]
     p.mb-5 La figura 3 muestra las fases y sus relaciones en el proceso de diseño de algoritmos de programas informáticos, que están basados en un algoritmo que posteriormente es escrito en un lenguaje de programación.
     #t_1_4
-    .titulo-segundo
+    .titulo-segundo.pt-5
       .h4 1.4. Análisis del problema (entenderlo)
     p.mb-4 Como los programas de computador tienen por objetivo resolver problemas muy puntuales, lo primero que se debe realizar para resolverlos es lograr una mejor comprensión posible de estos.
     p.mb-4 Para realizar esta actividad se debe:
@@ -116,19 +116,15 @@
       li 
         .lista-ol--cuadro__vineta
           span 1
-        | #[b Entender el problema enunciado por el instructor (entender el problema).]
+        | #[b Formular claramente el problema.]
       li 
         .lista-ol--cuadro__vineta
           span 2
-        | #[b Escoger una ruta a seguir del rectángulo (hacer un plan).]
+        | #[b Especificar los resultados que se desean obtener con la solución.]
       li 
         .lista-ol--cuadro__vineta
           span 3
-        | #[b Plasmar en el papel cuadriculado ese plan (ejecutar el plan).]
-      li 
-        .lista-ol--cuadro__vineta
-          span 4
-        | #[b Revisar el resultado y ver que se alcanzó el objetivo (revisar).]
+        | #[b Identificar la información disponible en los datos.]
     TabsC.mb-5
       .py-3.py-md-4(titulo="Formular el problema")
         .row
@@ -162,7 +158,7 @@
                   img.img-a1(src="@/assets/template/icon-list1.svg").img-fluid  
               .list__txt
                 p ¿Qué información es importante para resolver el problema?
-            .list.align-items-star.mt-.mb-4
+            .list.align-items-star.mt-2.mb-4
               .list__item
                 .list__item__icon
                   img.img-a1(src="@/assets/template/icon-list1.svg").img-fluid  
@@ -211,7 +207,7 @@
                   img.img-a1(src="@/assets/template/icon-list1.svg").img-fluid  
               .list__txt
                 p ¿Los datos se pueden agrupar en categorías?
-            .list.align-items-star.mt-.mb-4
+            .list.align-items-star.mt-2.mb-4
               .list__item
                 .list__item__icon
                   img.img-a1(src="@/assets/template/icon-list1.svg").img-fluid  
