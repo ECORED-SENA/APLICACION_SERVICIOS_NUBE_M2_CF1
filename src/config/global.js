@@ -179,21 +179,19 @@ export default {
         centro: 'Centro para la industria de la comunicación gráfica',
         regional: 'Regional Distrito Capital',
       },
-      {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro industrial del diseño Y la manufactura',
-        regional: 'Regional Santander',
-      },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
+        centro: 'Centro industrial del diseño y la manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
+        centro: 'Centro de comercio y servicios',
+        regional: 'Regional Tolima',
       },
       {
         nombre: [
@@ -212,6 +210,17 @@ export default {
           'Luis Gabriel Urueta Alvarez',
         ],
         cargo: 'Desarrollo Front-End',
+      },
+      {
+        nombre: [
+          'Jenny Paola Montillo',
+          'Jhana Johana Bustillo',
+          'María Isabel Román Rueda',
+          'Rafael Augusto Mantilla',
+          'Veimar Celis Meléndez',
+          'Yuli Marcela Gómez ',
+        ],
+        cargo: 'Revisores de contenido',
       },
       {
         centro: 'Centro industrial del diseño y la manufactura',
