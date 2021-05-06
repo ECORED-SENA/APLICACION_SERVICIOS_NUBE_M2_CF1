@@ -20,12 +20,8 @@
 </template>
 
 <script>
-import BannerInterno from '../components/plantilla/BannerInterno'
 export default {
   name: 'Introduccion',
-  components: {
-    BannerInterno,
-  },
   data: () => ({
     globalData: global,
   }),
