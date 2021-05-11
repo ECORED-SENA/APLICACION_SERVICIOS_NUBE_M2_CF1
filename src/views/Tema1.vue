@@ -109,7 +109,7 @@
     p.mb-5 La figura 3 muestra las fases y sus relaciones en el proceso de diseño de algoritmos de programas informáticos, que están basados en un algoritmo que posteriormente es escrito en un lenguaje de programación.
     #t_1_4
     .titulo-segundo.pt-5
-      .h4 1.4. Análisis de problemas (entenderlo)
+      .h4 1.4. Análisis del problema (entenderlo)
     p.mb-4 Como los programas de computador tienen por objetivo resolver problemas muy puntuales, lo primero que se debe realizar para resolverlos es lograr una mejor comprensión posible de estos.
     p.mb-4 Para realizar esta actividad se debe:
     ol.lista-ol--cuadro.mb-5

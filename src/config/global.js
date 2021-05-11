@@ -47,7 +47,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Análisis de problemas (entenderlo)',
+            titulo: 'Análisis del problema (entenderlo)',
             hash: 't_1_4',
           },
           {
