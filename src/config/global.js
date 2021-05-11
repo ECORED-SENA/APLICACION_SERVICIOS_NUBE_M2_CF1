@@ -212,15 +212,8 @@ export default {
         cargo: 'Desarrollo Front-End',
       },
       {
-        nombre: [
-          'Jenny Paola Montillo',
-          'Jhana Johana Bustillo',
-          'María Isabel Román Rueda',
-          'Rafael Augusto Mantilla',
-          'Veimar Celis Meléndez',
-          'Yuli Marcela Gómez ',
-        ],
-        cargo: 'Revisores de contenido',
+        nombre: ['María Isabel Román Rueda'],
+        cargo: 'Revisora de contenido',
       },
       {
         centro: 'Centro industrial del diseño y la manufactura',

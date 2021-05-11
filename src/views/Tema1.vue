@@ -109,7 +109,7 @@
     p.mb-5 La figura 3 muestra las fases y sus relaciones en el proceso de diseño de algoritmos de programas informáticos, que están basados en un algoritmo que posteriormente es escrito en un lenguaje de programación.
     #t_1_4
     .titulo-segundo.pt-5
-      .h4 1.4. Análisis del problema (entenderlo)
+      .h4 1.4. Análisis de problemas (entenderlo)
     p.mb-4 Como los programas de computador tienen por objetivo resolver problemas muy puntuales, lo primero que se debe realizar para resolverlos es lograr una mejor comprensión posible de estos.
     p.mb-4 Para realizar esta actividad se debe:
     ol.lista-ol--cuadro.mb-5
@@ -236,7 +236,7 @@
                 p ¿En qué formato se debe entregar esta información?
     #t_1_5
     .titulo-segundo
-      .h4 1.5. Desarrollo de la creatividad elementos, modelos, fases y sus objetivos
+      .h4 1.5. Desarrollo de la creatividad: elementos, modelos, fases y sus objetivos
     .row.align-items-start.mb-4
       .col-12.col-lg-7
         p.mb-4 Resolver algoritmos es una actividad que requiere en la mayoría de los casos creatividad por parte del programador, esta es una habilidad que se va fortaleciendo en la medida que se desempeña más y más en procesos de desarrollo de software.
